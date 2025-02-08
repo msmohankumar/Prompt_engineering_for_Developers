@@ -335,37 +335,6 @@ The outcome of our literature survey revealed that while there is substantial re
 ## Methodology Proposed in the Reference Paper and Differences
 The methodology proposed in the reference paper involves a structured approach to prompt design, emphasizing the iterative process of testing and refining prompts based on model responses. It advocates for the use of few-shot learning techniques to improve model performance. Our work differs in that we not only focus on prompt design but also integrate LangChain and vector databases to create a comprehensive pipeline for prompt engineering. This allows for dynamic content generation and enhanced contextual relevance, addressing the limitations identified in the literature.
 
-## Flow/Block Diagram of Project Work
-```plaintext
-+---------------------+
-|   Data Ingestion    |
-| (APIs, Databases)   |
-+---------------------+
-           |
-           v
-+---------------------+
-|  Input Preprocessing|
-+---------------------+
-           |
-           v
-+---------------------+
-|  Prompt Optimization|
-+---------------------+
-           |
-           v
-+---------------------+
-|  Response Generation|
-|   (LLMs, LangChain)|
-+---------------------+
-           |
-           v
-+---------------------+
-|  Output Evaluation   |
-| (Test Cases, Metrics)|
-+---------------------+
-
-
-
 ## Frequently Asked Questions (FAQs)
 
 ### 1. What is the main goal of your project?
@@ -423,3 +392,36 @@ Developers can access a variety of resources, including our comprehensive docume
 
 ### 15. How can one contribute to your project?
 Contributions are welcome! Developers can contribute by providing feedback, suggesting improvements, or sharing their own experiences with prompt engineering. Additionally, we encourage collaboration on GitHub through pull requests and issue tracking to enhance the framework further.
+
+
+## Flow/Block Diagram of Project Work
+```plaintext
++---------------------+
+|   Data Ingestion    |
+| (APIs, Databases)   |
++---------------------+
+           |
+           v
++---------------------+
+|  Input Preprocessing|
++---------------------+
+           |
+           v
++---------------------+
+|  Prompt Optimization|
++---------------------+
+           |
+           v
++---------------------+
+|  Response Generation|
+|   (LLMs, LangChain)|
++---------------------+
+           |
+           v
++---------------------+
+|  Output Evaluation   |
+| (Test Cases, Metrics)|
++---------------------+
+
+
+
