@@ -315,3 +315,51 @@ Ensure that new changes do not introduce unintended bugs.
 - **Month 2:** System design and implementation.
 - **Month 3:** Test case development and evaluation.
 - **Month 4:** Documentation and final presentation.
+
+
+## Questions and Answers
+# Capstone Research Project: Prompt Engineering for Developers
+
+## Abstract
+Prompt engineering has emerged as a crucial discipline in the domain of large language models (LLMs), enabling developers to optimize and tailor generative models for specific tasks. This project explores methodologies, tools, and applications for prompt engineering, leveraging technologies such as LangChain, vector databases, and semantic search. Additionally, we analyze strategies for aligning prompts with LLM capabilities and evaluate their efficacy using test cases. This work consolidates insights from contemporary research to offer a comprehensive guide for developers.
+
+## Literature Survey Process
+The literature survey for this Capstone project involved a systematic review of existing research and publications related to prompt engineering, large language models, and their applications. We began by identifying key databases and repositories, such as Google Scholar, IEEE Xplore, and arXiv, to gather relevant papers. We used specific keywords like "prompt engineering," "LangChain," "LLMs," and "semantic search" to filter our search results. Each selected paper was analyzed for its contributions, methodologies, and findings. We categorized the literature into themes, such as the importance of prompt design, integration techniques, and case studies demonstrating the effectiveness of various approaches. This comprehensive review provided a solid foundation for understanding the current state of research and identifying gaps that our project could address.
+
+## Reference Paper
+One reference paper that significantly influenced our project is "Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm" by Reynolds and Mavrikakis (2021). This paper discusses the intricacies of prompt design and its impact on the performance of LLMs. It emphasizes the importance of crafting effective prompts to elicit desired responses from models, providing insights into various strategies for prompt optimization. The methodologies and examples presented in this paper guided our approach to developing a robust prompt engineering framework.
+
+## Outcome of Literature Survey and Proposed Problem Statement
+The outcome of our literature survey revealed that while there is substantial research on LLMs and their applications, there is a lack of comprehensive frameworks that integrate prompt engineering with external data sources effectively. Our proposed problem statement focuses on developing a systematic approach to prompt engineering that enhances the performance of LLMs in real-world applications. Specifically, we aim to address the challenges of prompt optimization, response generation, and the integration of external tools and databases.
+
+## Methodology Proposed in the Reference Paper and Differences
+The methodology proposed in the reference paper involves a structured approach to prompt design, emphasizing the iterative process of testing and refining prompts based on model responses. It advocates for the use of few-shot learning techniques to improve model performance. Our work differs in that we not only focus on prompt design but also integrate LangChain and vector databases to create a comprehensive pipeline for prompt engineering. This allows for dynamic content generation and enhanced contextual relevance, addressing the limitations identified in the literature.
+
+## Flow/Block Diagram of Project Work
+```plaintext
++---------------------+
+|   Data Ingestion    |
+| (APIs, Databases)   |
++---------------------+
+           |
+           v
++---------------------+
+|  Input Preprocessing|
++---------------------+
+           |
+           v
++---------------------+
+|  Prompt Optimization|
++---------------------+
+           |
+           v
++---------------------+
+|  Response Generation|
+|   (LLMs, LangChain)|
++---------------------+
+           |
+           v
++---------------------+
+|  Output Evaluation   |
+| (Test Cases, Metrics)|
++---------------------+
